@@ -1,0 +1,17 @@
+_id: env_d4580c5389cd4bd49e879fc2a31a21c5
+type: Environment
+parentId: env_78e31766f6007c1dd78375febbffbf5704144856
+modified: 1611411222845
+created: 1611365905112
+name: Local
+data:
+  base_url: http://localhost:8080
+  token: "{% response 'body', 'req_0f7a101040b44d49831a084ed4671a28',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: "#00a814"
+isPrivate: false
+metaSortKey: 1611365905112

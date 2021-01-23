@@ -1,0 +1,30 @@
+_id: req_0f7a101040b44d49831a084ed4671a28
+type: Request
+parentId: fld_ab38c624beb844f2a8d9dd6244b4dbf4
+modified: 1611411201014
+created: 1611411148963
+url: "{{ _.base_url }}/api/v1/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "carlos@sourcevortex.com",
+    	"password": "henrique96"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0eb6877fdc3c414fb75b47230b5bcce8
+authentication: {}
+metaSortKey: -1611411148964
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

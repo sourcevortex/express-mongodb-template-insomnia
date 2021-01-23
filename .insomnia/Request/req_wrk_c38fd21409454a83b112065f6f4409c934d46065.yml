@@ -1,21 +1,23 @@
 _id: req_wrk_c38fd21409454a83b112065f6f4409c934d46065
-authentication: {}
-body: {}
-created: 1588302726759
-description: ""
-headers: []
-isPrivate: false
-metaSortKey: -1588302726759
-method: GET
-modified: 1588303242376
-name: Get specific user
-parameters: []
+type: Request
 parentId: fld_wrk_c38fd21409454a83b112065f6f4409c95b7dcd14
+modified: 1611411261430
+created: 1588302726759
+url: "{{ base_url }}/api/v1/users/600b9aa41c97e5fb8fff3f92"
+name: Get specific user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1588302726759
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
 settingDisableRenderRequestBody: false
 settingEncodeUrl: true
-settingFollowRedirects: global
 settingRebuildPath: true
-settingSendCookies: true
-settingStoreCookies: true
-type: Request
-url: "{{ base_url }}/users/{{ userId }}"
+settingFollowRedirects: global
